@@ -1,0 +1,17 @@
+body{
+  display: grid;
+  background-image: url("../img/crocheting-1479217_1920.jpg")  ;
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  display: flex;
+}
+
+#panel{
+
+  top: 0px;
+  left: 50%;
+  width: 629px;
+  height: 1080px;
+
+  position: fixed;
+}
