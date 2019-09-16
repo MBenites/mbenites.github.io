@@ -4,30 +4,42 @@ html{
   background-size: cover;
   height: 100%;
   overflow: hidden;
-
+  font-size: 10px;
 }
 
-div{
+section{
+  position: absolute;
+  top: 30%;
+  right: 5%;
+
+  text-align: center;
+}
+
+svg{
   position: fixed;
-  margin: 0;
-  top:0px;
+  top: 0px;
   right: 0px;
-  height: 100%;
-  width: 50%;
-  background: linear-gradient(100deg, rgba(255,255,255,0) 15%, rgba(255,255,255,1) 60%)  no-repeat center center;
 }
 
-nav{
-  position: relative;
-  padding: 2em;
-  top: 50%;
-  left: 50%
+h1{
+  font-family: "Edwardian Script ITC",arial;
+  font-size: 12em;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  margin-bottom: 0px;
 }
 
-nav ul {
-  list-style: none;
+h2{
+  margin-top: 0px;
+  font-family: "Edwardian Script ITC";
+  font-size: 6em;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  color: #B79541;
 }
 
-nav a {
-  text-decoration: none;
+span{
+  display: block;
+  font-family: "Century Gothic";
+  font-size: 3em;
+  color: #333333;
+  margin: 0.5em;
 }
