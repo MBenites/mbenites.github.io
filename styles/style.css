@@ -1,3 +1,30 @@
+@font-face {
+    font-family: 'bellefairregular';
+    src: url('fonts/bellefair-regular-webfont.woff2') format('woff2'),
+         url('fonts/bellefair-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'carrois_gothicregular';
+    src: url('fonts/carroisgothic-regular-webfont.woff2') format('woff2'),
+         url('fonts/carroisgothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'rouge_scriptregular';
+    src: url('fonts/rougescript-regular-webfont.woff2') format('woff2'),
+         url('fonts/rougescript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html{
   /*html better than body as it's always at least the height of the browser window*/
   background:   url("../img/crocheting-1479217_1920.jpg") no-repeat center center fixed;
@@ -7,6 +34,7 @@ html{
   font-size: 10px;
 }
 
+
 section{
   position: absolute;
   top: 30%;
@@ -15,30 +43,35 @@ section{
   text-align: center;
 }
 
+
 svg{
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
+
 h1{
-  font-family: "Edwardian Script ITC",arial;
-  font-size: 12em;
+  font-family: 'rouge_scriptregular', arial;
+  font-size: calc(6rem + 3vw);;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   margin-bottom: 0px;
+  font-weight: 100;
 }
+
 
 h2{
   margin-top: 0px;
-  font-family: "Edwardian Script ITC";
+  font-family: 'rouge_scriptregular', arial;
   font-size: 6em;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   color: #B79541;
 }
 
+
 span{
   display: block;
-  font-family: "Century Gothic";
+  font-family: "carrois_gothicregular";
   font-size: 3em;
   color: #333333;
   margin: 0.5em;
