@@ -38,9 +38,14 @@ html{
 
 section{
   position: absolute;
-  top: 25%;
+  top: 0%;
   right: 2%;
+  height: 100%;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
