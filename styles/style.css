@@ -8,11 +8,12 @@
 
 
 @font-face {
-    font-family: 'carrois_gothicregular';
-    src: url('fonts/carroisgothic-regular-webfont.woff2') format('woff2'),
-         url('fonts/carroisgothic-regular-webfont.woff') format('woff');
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.woff2') format('woff2'),
+         url('opensans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -37,9 +38,8 @@ html{
 
 section{
   position: absolute;
-  top: 30%;
-  right: 5%;
-
+  top: 25%;
+  right: 2%;
   text-align: center;
 }
 
@@ -53,26 +53,30 @@ svg{
 
 h1{
   font-family: 'rouge_scriptregular', arial;
-  font-size: calc(6rem + 3vw);;
+  font-size: calc(4rem + 5vw);
   text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   margin-bottom: 0px;
   font-weight: 100;
+  line-height: 1;
 }
 
 
 h2{
   margin-top: 0px;
   font-family: 'rouge_scriptregular', arial;
-  font-size: 6em;
+  font-size: calc(3rem + 1vw);
   text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   color: #B79541;
+  font-weight: 600;
 }
 
 
 span{
   display: block;
-  font-family: "carrois_gothicregular";
-  font-size: 3em;
+  font-family: "open_sansregular",arial;
+  font-size: calc(2rem + 0.5vw);
   color: #333333;
-  margin: 0.5em;
+  line-height: 1;
+  margin: 1em;
+  font-weight: 0;
 }
