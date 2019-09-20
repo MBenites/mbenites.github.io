@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'bellefairregular';
+    src: url('fonts/bellefair-regular-webfont.woff2') format('woff2'),
+         url('fonts/bellefair-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.woff2') format('woff2'),
+         url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'rouge_scriptregular';
+    src: url('fonts/rougescript-regular-webfont.woff2') format('woff2'),
+         url('fonts/rougescript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html{
+  font-size: 10px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section{
+  position: absolute;
+  top: 0%;
+  right: 2%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+h1{
+  font-family: 'rouge_scriptregular', arial;
+  font-size: calc(4rem + 5vw);
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  margin-bottom: 0px;
+  font-weight: 100;
+  line-height: 1;
+}
+
+
+h2{
+  margin-top: 0px;
+  font-family: 'rouge_scriptregular', arial;
+  font-size: calc(3rem + 1vw);
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  color: #B79541;
+  font-weight: 600;
+}
+
+
+span{
+  display: block;
+  font-family: "open_sansregular",arial;
+  font-size: calc(2rem + 0.5vw);
+  color: #333333;
+  line-height: 1;
+  margin: 0.5em;
+  font-weight: 0;
+}
