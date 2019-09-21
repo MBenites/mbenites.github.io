@@ -85,3 +85,8 @@ span{
   margin: 0.5em;
   font-weight: 0;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
