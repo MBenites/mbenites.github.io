@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'open_sansregular';
-    src: url('opensans-regular-webfont.woff2') format('woff2'),
-         url('opensans-regular-webfont.woff') format('woff');
+    src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -38,7 +38,7 @@ html{
 
 section{
   position: absolute;
-  top: 0%;
+  top: 10%;
   right: 2%;
   height: 100%;
   text-align: center;
@@ -49,10 +49,21 @@ section{
 }
 
 
-svg{
-  position: fixed;
-  top: 0px;
-  right: 0px;
+.svg-container{
+  display: inline-block;
+	position: fixed;
+	width: 100%;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+
+.svg-content{
+  display: inline-block;
+	position: fixed;
+	top: 0;
+	right: 0;
 }
 
 
