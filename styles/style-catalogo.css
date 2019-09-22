@@ -28,6 +28,7 @@
 
 html{
   font-size: 10px;
+  font-family: 'open_sansregular';
 }
 
 
@@ -85,6 +86,23 @@ a{
 }
 
 
+section.categoria{
+  font-size: calc(1.2rem + 0.5vw);
+}
+
+
+img.img-producto{
+  width: 250px;
+  height: 250px;
+}
+
+
+img.icono{
+  width: 40px;
+  height: 40px;
+}
+
+
 footer{
   bottom: 0;
   position: relative;
@@ -108,7 +126,7 @@ div.logo-footer{
   font-size: calc(7rem + 0.5vw);
   position: relative;
   top: 0%;
-  
+
 }
 
 div.contactos-footer{
