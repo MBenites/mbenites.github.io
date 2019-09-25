@@ -83,6 +83,8 @@ li{
   font-family: 'open_sansregular';
   text-decoration: none;
   font-size: calc(1.5rem + 0.5vw);
+  height: 100%;
+
 }
 
 
@@ -96,13 +98,45 @@ li.logo{
 
 li.bolso{
   color: #B79541;
+  text-overflow: ellipsis;
 }
 
 
 a{
   text-decoration: none;
-  color: inherit;
+  color: #000000;
 }
+
+a.buscar{
+  background: url("../icons/icons8-search-64.png") no-repeat right center;
+  background-size: 40px 40px;
+  padding-right: 50px;
+}
+
+a.bolso{
+  background: url("../icons/icons8-shopping-bag-100b.png") no-repeat right center;
+  background-size: 40px 40px;
+  padding-right: 50px;
+}
+
+a.link-ver-mas:link{
+  color: #7A632B;
+}
+
+a.link-ver-mas:visited {
+  color: #7A632B;
+}
+
+a.link-ver-mas:hover {
+  border-bottom: 2px solid #7A632B;
+  background: #E4D5B2;
+}
+
+a.link-ver-mas:active {
+  background: #E4D5B2;
+  color: #FFFFFF;
+}
+
 
 div.categoria-div:first-of-type{
   position: relative;
@@ -176,7 +210,12 @@ footer div {
   padding: 50px;
 }
 
+
 div.redes-footer img{
   height: 40px;
   width: 40px;
+}
+
+p.num-telefono{
+  letter-spacing: 0.2rem;
 }
