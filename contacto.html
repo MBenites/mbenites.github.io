@@ -35,15 +35,17 @@
         <h1>Contactanos, pedidos o consultas:</h1>
         <p>
           <label for="name"><span>Nombre</span></label>
-          <input type="text" name="username" id="name" value="">
+          <input type="text" name="username" id="name" value="" required minlength="3"
+          required>
         </p>
         <p>
           <label for="mail"><span>Correo</span></label>
-          <input type="email" name="useremail" id="mail" value="">
+          <input type="email" name="useremail" id="mail" value="" required>
         </p>
         <p>
           <label for="phone"><span>Teléfono</span></label>
-          <input type="text" name="userphone" id="phone" value="">
+          <input type="tel" name="userphone" id="phone" value="" pattern='?\d{0,12}'
+          required minlength="6" required>
         </p>
         <div id="message">
           <label for="msg">Tu mensaje:</label>
