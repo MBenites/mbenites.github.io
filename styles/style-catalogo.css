@@ -36,7 +36,7 @@ html.catalogo-page  body{
     margin: 0;
 }
 
-div.menus{
+div.menu{
   width: 100%;
   position: fixed;
   margin: 0;
@@ -46,7 +46,7 @@ div.menus{
 }
 
 
-nav.menu{
+nav.main-menu{
   text-align: center;
   line-height: 1;
   box-shadow: 0px 5px 6px #00000029;
@@ -55,7 +55,7 @@ nav.menu{
   }
 
 
-nav.menu-categorias{
+nav.categories-menu{
   background-color: #E4D5B2;
   line-height: 2;
   box-shadow: 0px 5px 6px #00000029;
@@ -74,7 +74,7 @@ ul{
 
 
 
-nav.menu-categorias ul{
+nav.categories-menu ul{
   justify-content: space-around;
 }
 
@@ -96,7 +96,7 @@ li.logo{
 }
 
 
-li.bolso{
+li.bag{
   color: #B79541;
   text-overflow: ellipsis;
 }
@@ -107,32 +107,32 @@ a{
   color: #000000;
 }
 
-a.buscar{
+a.search{
   background: url("../icons/icons8-search-64.png") no-repeat right center;
   background-size: 40px 40px;
   padding-right: 50px;
 }
 
-a.bolso{
+a.bag{
   background: url("../icons/icons8-shopping-bag-100b.png") no-repeat right center;
   background-size: 40px 40px;
   padding-right: 50px;
 }
 
-a.link-ver-mas:link{
+a.link-more:link{
   color: #7A632B;
 }
 
-a.link-ver-mas:visited {
+a.link-more:visited {
   color: #7A632B;
 }
 
-a.link-ver-mas:hover {
+a.link-more:hover {
   border-bottom: 2px solid #7A632B;
   background: #E4D5B2;
 }
 
-a.link-ver-mas:active {
+a.link-more:active {
   background: #E4D5B2;
   color: #FFFFFF;
 }
@@ -144,25 +144,25 @@ div.categoria-div:first-of-type{
 }
 
 
-div.categoria-div{
+div.category-box{
   font-size: calc(1.2rem + 0.5vw);
 }
 
 
-div.categoria-productos{
+div.product-category-box{
   display: grid;
     grid-template-columns: auto auto auto;
 }
 
 
-img.img-producto{
+img.product-img{
   width: 250px;
   height: 250px;
   background-size: contain;
 }
 
 
-img.icono{
+img.buy-icon{
   width: 40px;
   height: 40px;
 }
@@ -194,13 +194,13 @@ div.logo-footer{
 
 }
 
-div.contactos-footer{
+div.contacts-footer{
   position: relative;
   top: 0%;
 }
 
 
-div.redes-footer{
+div.social-network-footer{
   position: relative;
   top: 0%;
 }
@@ -211,11 +211,11 @@ footer div {
 }
 
 
-div.redes-footer img{
+div.social-network-footer img{
   height: 40px;
   width: 40px;
 }
 
-p.num-telefono{
+p.phone-label{
   letter-spacing: 0.2rem;
 }

@@ -25,6 +25,59 @@
     font-style: normal;
 }
 
+/* ||||||||||||||||||||*/
+/* || General Styles ||*/
+/* |||||||||||||||||||| */
+
+
+html{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+ul, a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* ||||||||||||||||*/
+/* || Typography ||*/
+/* |||||||||||||||| */
+
+
+h1,h2 {
+  font-family: 'rouge_scriptregular', arial;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+
+h1{
+  font-size: calc(4rem + 5vw);
+  font-weight: 100;
+}
+
+
+h2{
+  font-size: calc(3rem + 1vw);
+  color: #B79541;
+  font-weight: 600;
+}
+
+
+p{
+  font-family: "open_sansregular",arial;
+  font-size: calc(2rem + 0.5vw);
+  color: #333333;
+}
+
+
+/* ||||||||||||||||*/
+/* || Cover page ||*/
+/* |||||||||||||||| */
+
 
 html.cover-page{
   /*html better than body as it's always at least the height of the browser window*/
@@ -57,8 +110,7 @@ html.cover-page  section{
 	padding-bottom: 100%;
 	vertical-align: middle;
 	overflow: hidden;
-  margin: 0;
-}
+  }
 
 
 .svg-content{
@@ -70,36 +122,18 @@ html.cover-page  section{
 
 
 html.cover-page h1{
-  font-family: 'rouge_scriptregular', arial;
-  font-size: calc(4rem + 5vw);
-  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   margin-bottom: 0px;
-  font-weight: 100;
   line-height: 1;
 }
 
 
 html.cover-page  h2{
   margin-top: 0px;
-  font-family: 'rouge_scriptregular', arial;
-  font-size: calc(3rem + 1vw);
-  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-  color: #B79541;
-  font-weight: 600;
 }
 
 
-html.cover-page  span{
+html.cover-page  p{
   display: block;
-  font-family: "open_sansregular",arial;
-  font-size: calc(2rem + 0.5vw);
-  color: #333333;
   line-height: 1;
   margin: 0.5em;
-  font-weight: 0;
-}
-
-a{
-  text-decoration: none;
-  color: inherit;
 }
