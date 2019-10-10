@@ -216,6 +216,11 @@ div.category-box{
 }
 
 
+p.price-text{
+    color: #493C1A;
+}
+
+
 
 /* -----------------------------------*/
 /* Catalogo / Layout -----------------*/
@@ -251,18 +256,18 @@ h2{
 
 
 div.catalogo-box{
-  margin-bottom: 220px;
+  margin-bottom: 250px;
 }
 
 
 div.product-category-box{
-  margin-left: 50px;
+  margin-left: 5%;
   margin-right: auto;
 }
 
 
 div.category-box{
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 
@@ -279,9 +284,10 @@ section.product-box{
 }
 
 
-div.product-text{
+div.product-info-box{
   padding-left: 5px;
   padding-right: 5px;
+  padding-bottom: 5px;
 }
 
 
@@ -290,9 +296,12 @@ div.text-box{
 }
 
 
-img.buy-icon{
-  width: 40px;
-  height: 40px;
+div.buy-box{
+  background: url("../icons/Symbol6–13.png") no-repeat center;
+  background-size: contain;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
   float: right;
 }
 
