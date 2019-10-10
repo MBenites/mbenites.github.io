@@ -251,12 +251,12 @@ h2{
 
 
 div.catalogo-box{
-margin-bottom: 220px;
+  margin-bottom: 220px;
 }
 
 
 div.product-category-box{
-  margin-left: 60px;
+  margin-left: 50px;
   margin-right: auto;
 }
 
@@ -267,16 +267,27 @@ div.category-box{
 
 
 img.product-img{
-  width: 300px;
-  height: 300px;
+  width: 380px;
+  height: 380px;
   background-size: contain;
 }
 
 
-div.product-text{
-  overflow: auto;
+section.product-box{
+  width: 380px;
+  box-shadow: 0px 3px 1px #B79541;
 }
 
+
+div.product-text{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+div.text-box{
+  display: inline-block;
+}
 
 
 img.buy-icon{
