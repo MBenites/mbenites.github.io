@@ -96,136 +96,6 @@ a.search, nav.categories-menu a{
 /* Header / Layout -------------------*/
 /* -----------------------------------*/
 
-/* -----------------------------------*/
-/* Header / Styles -------------------*/
-/* -----------------------------------*/
-
-
-/* -----------------------------------*/
-/* Catalogo --------------------------*/
-/* -----------------------------------*/
-
-/* -----------------------------------*/
-/* Catalogo / Typography -------------*/
-/* -----------------------------------*/
-
-
-
-div.category-box{
-  font-size: 2rem;
-}
-
-
-
-/* -----------------------------------*/
-/* Catalogo / Layout -----------------*/
-/* -----------------------------------*/
-
-/* -----------------------------------*/
-/* Catalogo / Styles -----------------*/
-/* -----------------------------------*/
-
-
-/* -----------------------------------*/
-/* Footer  ---------------------------*/
-/* -----------------------------------*/
-
-/* -----------------------------------*/
-/* Footer / Typography ---------------*/
-/* -----------------------------------*/
-
-
-
-footer{
-  color: #FFFFFF;
-  line-height: 150%;
-  font-size: 2rem;
-}
-
-
-div.logo-footer{
-  font-family: 'rouge_scriptregular';
-  color: #FFFFFF;
-  font-size: 8rem;
-}
-
-
-
-/* -----------------------------------*/
-/* Footer / Layout -------------------*/
-/* -----------------------------------*/
-
-/* -----------------------------------*/
-/* Footer / Styles -------------------*/
-/* -----------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* |||||||||||||||||||*/
-/* || Catalogo page ||*/
-/* ||||||||||||||||||| */
-
-
-div.category-box:first-of-type{
-  position: relative;
-  top: 130px;
-}
-
-
-div.product-category-box{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
-
-img.product-img{
-  width: 250px;
-  height: 250px;
-  background-size: contain;
-}
-
-
-img.buy-icon{
-  width: 40px;
-  height: 40px;
-}
-
-
-a.link-more:link{
-  color: #7A632B;
-}
-
-a.link-more:visited {
-  color: #7A632B;
-}
-
-a.link-more:hover {
-  border-bottom: 2px solid #7A632B;
-  background: #E4D5B2;
-}
-
-a.link-more:active {
-  background: #E4D5B2;
-  color: #FFFFFF;
-}
-
-
-/* ||||||||||*/
-/* || Nav |||*/
-/* ||||||||||*/
 
 
 div.menu{
@@ -237,25 +107,10 @@ div.menu{
 }
 
 
-nav.main-menu{
-  text-align: center;
-  line-height: 1.3;
-  box-shadow: 0px 5px 6px #00000029;
-  background: #FFFFFF;
-}
-
-
-nav.categories-menu{
-  background-color: #E4D5B2;
-  line-height: 2.4;
-  box-shadow: 0px 5px 6px #00000029;
-}
-
-
 ul{
     display: flex;
     flex-direction: row;
-  }
+}
 
 
 nav.main-menu ul{
@@ -294,15 +149,31 @@ nav.main-menu ul li:nth-of-type(2) {
 }
 
 
-nav.main-menu ul li:nth-of-type(3) {
-  margin-left: auto;
+
+/* -----------------------------------*/
+/* Header / Styles -------------------*/
+/* -----------------------------------*/
+
+
+
+nav.main-menu{
+  text-align: center;
+  line-height: 1.3;
+  box-shadow: 0px 5px 6px #00000029;
+  background: #FFFFFF;
 }
 
+
+nav.categories-menu{
+  background-color: #E4D5B2;
+  line-height: 2.4;
+  box-shadow: 0px 5px 6px #00000029;
+}
 
 
 /* Line-height increased for the background-icon to fit*/
 a.search, a.bag{
-  line-height: 200%;
+  line-height: 2;
 }
 
 
@@ -320,18 +191,149 @@ a.bag{
 
 div.sandwich{
   background: url("../icons/icons8-menu-52.png") no-repeat center;
-  background-size: cover;
+  background-size: contain;
   width: 35px;
   height: 35px;
 }
 
-/* Nav categories */
+
+/* -----------------------------------*/
+/* Catalogo --------------------------*/
+/* -----------------------------------*/
+
+/* -----------------------------------*/
+/* Catalogo / Typography -------------*/
+/* -----------------------------------*/
+
+
+h2{
+  font-size: 2.4rem;
+  font-weight: normal;
+}
+
+div.category-box{
+  font-size: 2rem;
+}
 
 
 
-/* ||||||||||||*/
-/* || Footer ||*/
-/* |||||||||||| */
+/* -----------------------------------*/
+/* Catalogo / Layout -----------------*/
+/* -----------------------------------*/
+
+
+
+div.catalogo-box{
+  position: relative;
+  top: 150px;
+}
+
+
+div.product-category-box{
+  display: grid;
+  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+
+
+/* -----------------------------------*/
+/* Catalogo / Styles -----------------*/
+/* -----------------------------------*/
+
+
+
+h2{
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+
+div.catalogo-box{
+margin-bottom: 220px;
+}
+
+
+div.product-category-box{
+  margin-left: 60px;
+  margin-right: auto;
+}
+
+
+div.category-box{
+  margin-bottom: 30px;
+}
+
+
+img.product-img{
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+}
+
+
+div.product-text{
+  overflow: auto;
+}
+
+
+
+img.buy-icon{
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+
+a.link-more:link{
+  color: #7A632B;
+}
+
+a.link-more:visited {
+  color: #7A632B;
+}
+
+a.link-more:hover {
+  border-bottom: 2px solid #7A632B;
+  background: #E4D5B2;
+}
+
+a.link-more:active {
+  background: #E4D5B2;
+  color: #FFFFFF;
+}
+
+
+
+/* -----------------------------------*/
+/* Footer  ---------------------------*/
+/* -----------------------------------*/
+
+/* -----------------------------------*/
+/* Footer / Typography ---------------*/
+/* -----------------------------------*/
+
+
+
+footer{
+  color: #FFFFFF;
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+
+div.logo-footer{
+  font-family: 'rouge_scriptregular';
+  color: #FFFFFF;
+  font-size: 8rem;
+}
+
+
+
+/* -----------------------------------*/
+/* Footer / Layout -------------------*/
+/* -----------------------------------*/
 
 
 footer{
@@ -379,3 +381,9 @@ div.social-network-footer img{
 p.phone-label{
   letter-spacing: 0.2rem;
 }
+
+
+
+/* -----------------------------------*/
+/* Footer / Styles -------------------*/
+/* -----------------------------------*/
