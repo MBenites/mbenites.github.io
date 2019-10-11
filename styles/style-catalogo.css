@@ -366,35 +366,52 @@ footer{
   flex-direction: row;
   justify-content: center;
   text-align: center;
-
 }
 
 div.logo-footer{
   position: relative;
   top: 0%;
+  flex: 1;
+  /* to center menu elements vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
 div.contacts-footer{
   position: relative;
   top: 0%;
+  flex: 1;
+  /* to center menu elements vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 
 div.social-network-footer{
   position: relative;
   top: 0%;
+  flex: 1;
+  /* to center menu elements vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 
 footer div {
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 
 div.social-network-footer img{
   height: 40px;
   width: 40px;
+  display: inline-block;
 }
 
 
