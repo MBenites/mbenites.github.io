@@ -108,8 +108,8 @@ div.menu{
 
 
 ul{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -129,18 +129,6 @@ li{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-
-li{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-
-nav.categories-menu li{
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 
@@ -168,6 +156,18 @@ nav.categories-menu{
   background-color: #E4D5B2;
   line-height: 2.5;
   box-shadow: 0px 5px 6px #00000029;
+}
+
+
+li{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+nav.categories-menu li{
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
@@ -211,6 +211,7 @@ h2{
   font-weight: normal;
 }
 
+
 div.category-box{
   font-size: 2rem;
 }
@@ -238,7 +239,7 @@ div.product-category-box{
   display: grid;
   /* grid-template-columns: auto auto auto; */
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 0px;
+  grid-column-gap: 10px;
   justify-items: center;
 }
 
@@ -252,7 +253,26 @@ div.product-category-box{
 
 h2{
   margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 30px;
+  overflow: hidden;
+}
+
+
+/* Adds a horizontal line to the right side of header 2*/
+h2:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 2px;
+ position: relative;
+ vertical-align: middle;
+ width: 90%;
+}
+
+h2:after {
+ left: .5em;
+ margin-right: -90%;
 }
 
 
