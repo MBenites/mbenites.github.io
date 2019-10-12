@@ -359,15 +359,15 @@ a.link-more:active {
 
 footer{
   color: #FFFFFF;
-  font-size: 2rem;
-  line-height: 150%;
+  font-size: 1.8rem;
+  line-height: 2.3;
 }
 
 
 div.logo-footer{
   font-family: 'rouge_scriptregular';
   color: #FFFFFF;
-  font-size: 8rem;
+  font-size: 9rem;
 }
 
 
@@ -377,32 +377,29 @@ div.logo-footer{
 /* -----------------------------------*/
 
 
+
 footer{
   bottom: 0;
-  position: relative;
-  background: transparent linear-gradient(180deg, #B79541CC 0%, #5C4B21 100%) 0% 0% no-repeat padding-box;
   width: 100%;
   height: 450px;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
 }
 
+
 div.logo-footer{
-  position: relative;
-  top: 0%;
   flex: 1;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
+
 div.contacts-footer{
-  position: relative;
-  top: 0%;
   flex: 1;
   /* to center menu elements vertically */
   display: flex;
@@ -413,8 +410,6 @@ div.contacts-footer{
 
 
 div.social-network-footer{
-  position: relative;
-  top: 0%;
   flex: 1;
   /* to center menu elements vertically */
   display: flex;
@@ -424,28 +419,70 @@ div.social-network-footer{
 }
 
 
-footer div {
-  /* padding: 50px; */
-}
-
-
-div.social-network-footer img{
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-}
-
-
-p.phone-label{
-  letter-spacing: 0.2rem;
-}
-
-
 
 /* -----------------------------------*/
 /* Footer / Styles -------------------*/
 /* -----------------------------------*/
 
-social-network-icon-box{
+
+
+footer{
+  background: transparent linear-gradient(180deg, #B79541CC 0%, #5C4B21 100%) 0% 0% no-repeat padding-box;
+}
+
+
+div.social-network-icon-box{
+    padding: 10px;
+}
+
+
+div.social-network-icon-box img{
+  height: 35px;
+  width: 35px;
   display: inline-block;
+  margin: 0 6px 0 6px;
+}
+
+
+p.phone-label{
+  letter-spacing: 0.3rem;
+}
+
+
+p.phone-label:before{
+  display: inline-block;
+  background-image: url("../icons/icons8-phone-48.png");
+  background-size: contain;
+  content: "";
+  height: 28px;
+  width: 28px;
+  position: relative;
+  margin-right: 7px;
+  top: 6px;
+}
+
+
+a.email-label:before{
+  display: inline-block;
+  background-image: url("../icons/icons8-important-mail-48.png");
+  background-size: contain;
+  content: "";
+  height: 28px;
+  width: 28px;
+  position: relative;
+  margin-right: 7px;
+  top: 6px;
+}
+
+
+p.location-label:before{
+  display: inline-block;
+  background-image: url("../icons/icons8-address-60.png");
+  background-size: contain;
+  content: "";
+  height: 28px;
+  width: 28px;
+  position: relative;
+  margin-right: 7px;
+  top: 6px;
 }
