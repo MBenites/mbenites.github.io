@@ -370,7 +370,9 @@ div.logo-footer{
   font-size: 9rem;
 }
 
-
+div.contacts-footer p:first-of-type, div.social-network-footer p:first-of-type{
+  color: #333333;
+}
 
 /* -----------------------------------*/
 /* Footer / Layout -------------------*/
@@ -385,7 +387,7 @@ footer{
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -428,6 +430,23 @@ div.social-network-footer{
 
 footer{
   background: transparent linear-gradient(180deg, #B79541CC 0%, #5C4B21 100%) 0% 0% no-repeat padding-box;
+
+}
+
+
+div.logo-footer{
+  /* padding-left: 60px; */
+  flex:1.5;
+}
+
+
+div.contacts-footer{
+  /* padding-left: 60px; */
+}
+
+
+div.social-network-footer{
+  padding-right: 100px;
 }
 
 
