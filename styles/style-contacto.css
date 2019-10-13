@@ -1,3 +1,5 @@
+@import "footer.css";
+
 @font-face {
     font-family: 'bellefairregular';
     src: url('fonts/bellefair-regular-webfont.woff2') format('woff2'),
@@ -24,6 +26,8 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 
 
@@ -67,9 +71,9 @@ html{
   /*html better than body as it's always at least the height of the browser window*/
   background:   url("../img/yarn-2565067_1920-o70.jpg") no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
-  min-height: 100vh;
-  overflow: hidden;
+  /* height: 100%; */
+  /* min-height: 100vh; */
+  /* overflow: hidden; */
 }
 
 
@@ -79,11 +83,45 @@ html{
 /* -----------------------------------*/
 
 
+html{
+  color: #FFFFFF;
+}
+
 
 main h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   line-height: 1;
+  font-family: 'open_sansregular';
+  text-shadow: 0px 3px 6px #000000E6;
+  font-weight: lighter;
+}
+
+
+strong{
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+
+label {
+  font-size: 2.5rem;
   font-family: 'bellefairregular';
+  text-shadow: 0px 3px 6px #000000E6;
+  line-height: 1.5;
+}
+
+
+input, textarea{
+  font: 2.5rem "bellefairregular", sans-serif;
+  line-height: 1.5;
+  color: #000000;
+}
+
+
+button{
+  font: 2.4rem "open_sansregular", sans-serif;
+  line-height: 1.5;
+  color: #FFFFFF;
 }
 
 
@@ -93,20 +131,82 @@ main h1 {
 /* -----------------------------------*/
 
 
+
+/* Center the form horizontally */
+.form-box{
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
 /* -----------------------------------*/
 /* Contacto / Styles -----------------*/
 /* -----------------------------------*/
 
 
 
-form{
-  /* width: 1055px;
-  height: 964px; */
-  background: transparent linear-gradient(141deg, #D6B258AD 0%, #40351BAD 100%) 0% 0% no-repeat padding-box;
-  box-shadow: 5px 5px 8px #00000029;
-  align-items: center;
+.form-box{
+  width: 100%;
+
 }
 
+
+form{
+  min-width: 400px;
+  width: 60%;
+  background: transparent linear-gradient(141deg, #D6B258AD 0%, #40351BAD 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 8px #00000029;
+  padding: 50px;
+}
+
+
+h1{
+  margin-bottom: 30px;
+}
+
+p, div.message{
+  margin: 12px;
+}
+
+
+label {
+    float: left;
+    width: 150px;
+    padding-right: 10px;
+}
+
+
+input, textarea{
+  background: #00000029 0% 0% no-repeat padding-box;
+  border  : none;
+  float: left;
+  width   : 500px;
+}
+
+
+textarea {
+  height  : 200px;
+  resize  : none;
+  overflow: auto;
+}
+
+
+button{
+  background: transparent;
+  border: 3px solid #FFFFFF;
+  margin-top: 30px;
+  padding: 5px 40px 5px 40px;
+}
 
 
 /* -----------------------------------*/

@@ -33,32 +33,54 @@
 
     <main>
 
-      <form class="" action="index.html" method="post">
-        <h1>Contactanos, pedidos o consultas:</h1>
-        <p>
-          <label for="name"><span>Nombre</span></label>
-          <input type="text" name="username" id="name" value="" required minlength="3"
-          required>
-        </p>
-        <p>
-          <label for="mail"><span>Correo</span></label>
-          <input type="email" name="useremail" id="mail" value="" required>
-        </p>
-        <p>
-          <label for="phone"><span>Teléfono</span></label>
-          <input type="tel" name="userphone" id="phone" value="" pattern='?\d{0,12}'
-          required minlength="6" required>
-        </p>
-        <div id="message">
-          <label for="msg">Tu mensaje:</label>
-          <textarea id="msg" name="user_message"></textarea>
-        </div>
-        <div class="button">
-          <button type="submit">Enviar</button>
-        </div>
-      </form>
+      <div class="form-box">
+        <form class="" action="index.html" method="post">
+          <h1><strong>Contáctanos</strong>, pedidos o consultas:</h1>
+          <p>
+            <label for="name"><span>Nombre</span></label>
+            <input type="text" name="username" id="name" value="" required minlength="3"
+            required>
+          </p>
+          <p>
+            <label for="mail"><span>Correo</span></label>
+            <input type="email" name="useremail" id="mail" value="" required>
+          </p>
+          <p>
+            <label for="phone"><span>Teléfono</span></label>
+            <input type="tel" name="userphone" id="phone" value="" pattern='?\d{0,12}'
+            required minlength="6" required>
+          </p>
+          <div class="message">
+            <label for="msg">Tu mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+
 
     </main>
+
+    <footer>
+      <div class="logo-footer">
+        <p>Margarita</p>
+      </div>
+      <div class="contacts-footer">
+        <p>Pedidos o consultas:</p>
+        <p class="phone-label">999-5489</p>
+        <p><a class="email-label" href="mailto:margaritaregaladom@gmail.com">margaritaregaladom@gmail.com</a></p>
+        <p class="location-label">Lima, Perú</p>
+      </div>
+      <div class="social-network-footer">
+        <p>Siguenos en:</p>
+        <div class="social-network-icon-box">
+          <img src="icons/icons8-facebook-48.png" alt="facebook">
+          <img src="icons/icons8-instagram-48.png" alt="instagram">
+        </div>
+      </div>
+    </footer> 
 
     <script src="my-js-file.js"></script>
   </body>
