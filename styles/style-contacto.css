@@ -55,3 +55,194 @@ html{
   font-size: 10px;
   font-family: 'open_sansregular';
 }
+
+
+
+/* -----------------------------------*/
+/* Contacto---------------------------*/
+/* -----------------------------------*/
+
+
+html{
+  /*html better than body as it's always at least the height of the browser window*/
+  background:   url("../img/yarn-2565067_1920-o70.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+
+
+/* -----------------------------------*/
+/* Contacto / Typography -------------*/
+/* -----------------------------------*/
+
+
+
+main h1 {
+  font-size: 4rem;
+  line-height: 1;
+  font-family: 'bellefairregular';
+}
+
+
+
+/* -----------------------------------*/
+/* Contacto / Layout -----------------*/
+/* -----------------------------------*/
+
+
+/* -----------------------------------*/
+/* Contacto / Styles -----------------*/
+/* -----------------------------------*/
+
+
+
+form{
+  width: 1055px;
+  height: 964px;
+  background: transparent linear-gradient(141deg, #D6B258AD 0%, #40351BAD 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 8px #00000029;
+  align-items: center;
+}
+
+
+
+/* -----------------------------------*/
+/* Header ----------------------------*/
+/* -----------------------------------*/
+
+/* -----------------------------------*/
+/* Header / Typography ---------------*/
+/* -----------------------------------*/
+
+
+
+li{
+  font-size: 2.4rem;
+}
+
+
+li.logo{
+  font-family: 'rouge_scriptregular';
+  font-size: 4.5rem;
+  color: #000000;
+  font-weight: 400;
+}
+
+
+a.bag{
+  color: #B79541;
+}
+
+
+a.search, nav.categories-menu a{
+  color: #333333;
+}
+
+
+
+/* -----------------------------------*/
+/* Header / Layout -------------------*/
+/* -----------------------------------*/
+
+
+
+div.menu{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+}
+
+
+nav.main-menu ul{
+  justify-content: space-between;
+}
+
+
+nav.categories-menu ul{
+  justify-content: center;
+}
+
+
+/* to center menu elements vertically */
+li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+nav.main-menu ul li:nth-of-type(2) {
+  flex-grow: 4;
+}
+
+
+
+/* -----------------------------------*/
+/* Header / Styles -------------------*/
+/* -----------------------------------*/
+
+
+
+nav.main-menu{
+  text-align: center;
+  line-height: 1.4;
+  box-shadow: 0px 5px 6px #00000029;
+  background: #FFFFFF;
+}
+
+
+nav.categories-menu{
+  background-color: #E4D5B2;
+  line-height: 2.5;
+  box-shadow: 0px 5px 6px #00000029;
+}
+
+
+li{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+nav.categories-menu li{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* Line-height increased for the background-icon to fit*/
+a.search, a.bag{
+  line-height: 2;
+}
+
+
+a.search{
+  background: url("../icons/icons8-search-64.png") no-repeat right center;
+  background-size: 40px 40px;
+  padding-right: 50px;
+}
+
+a.bag{
+  background: url("../icons/icons8-shopping-bag-100b.png") no-repeat right center;
+  background-size: 40px 40px;
+  padding-right: 50px;
+}
+
+div.sandwich{
+  background: url("../icons/icons8-menu-52.png") no-repeat center;
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+}
