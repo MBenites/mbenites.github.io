@@ -100,8 +100,8 @@ main h1 {
 
 
 form{
-  width: 1055px;
-  height: 964px;
+  /* width: 1055px;
+  height: 964px; */
   background: transparent linear-gradient(141deg, #D6B258AD 0%, #40351BAD 100%) 0% 0% no-repeat padding-box;
   box-shadow: 5px 5px 8px #00000029;
   align-items: center;
