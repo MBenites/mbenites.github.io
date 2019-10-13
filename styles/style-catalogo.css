@@ -33,7 +33,7 @@
 
 
 
-html, body, p, h1, h2, div, section, nav, ul, li{
+html, body, p, h1, h2, div, section, nav, ul, li, footer, main{
   margin: 0;
   padding: 0;
   border: 0;
@@ -382,7 +382,7 @@ div.contacts-footer p:first-of-type, div.social-network-footer p:first-of-type{
 
 footer{
   bottom: 0;
-  width: 100%;
+  /* width: 100%; */
   height: 450px;
   position: relative;
   display: flex;
