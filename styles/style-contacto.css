@@ -70,6 +70,7 @@ html{
 html{
   /*html better than body as it's always at least the height of the browser window*/
   background:   url("../img/yarn-2565067_1920-o70.jpg") no-repeat center center fixed;
+  background-color: black;
   background-size: cover;
   /* height: 100%; */
   /* min-height: 100vh; */
