@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'bellefairregular';
+    src: url('fonts/bellefair-regular-webfont.woff2') format('woff2'),
+         url('fonts/bellefair-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'rouge_scriptregular';
+    src: url('fonts/rougescript-regular-webfont.woff2') format('woff2'),
+         url('fonts/rougescript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* -----------------------------------*/
+/* General Styles---------------------*/
+/* -----------------------------------*/
+
+
+
+html, body, p, h1, h2, div, section, nav, ul, li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+ul{
+  list-style: none;
+}
+
+
+h1,h2,h3,a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+html{
+  font-size: 10px;
+  font-family: 'open_sansregular';
+}
