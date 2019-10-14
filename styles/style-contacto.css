@@ -1,5 +1,3 @@
-@import "footer.css";
-
 @font-face {
     font-family: 'bellefairregular';
     src: url('fonts/bellefair-regular-webfont.woff2') format('woff2'),
@@ -72,11 +70,14 @@ html{
   background:   url("../img/yarn-2565067_1920-o70.jpg") no-repeat center center fixed;
   background-color: black;
   background-size: cover;
-  /* height: 100%; */
+  height: 100%;
+
   /* min-height: 100vh; */
   /* overflow: hidden; */
 }
-
+main{
+  padding-bottom: 250px;
+}
 
 
 /* -----------------------------------*/
@@ -175,7 +176,7 @@ h1{
   margin-bottom: 30px;
 }
 
-p, div.message{
+div.form-box p, div.message{
   margin: 12px;
 }
 
@@ -346,4 +347,165 @@ div.sandwich{
   background-size: contain;
   width: 35px;
   height: 35px;
+}
+
+
+
+/* -----------------------------------*/
+/* Footer  ---------------------------*/
+/* -----------------------------------*/
+
+/* -----------------------------------*/
+/* Footer / Typography ---------------*/
+/* -----------------------------------*/
+
+
+
+footer{
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  line-height: 2.3;
+}
+
+
+div.logo-footer{
+  font-family: 'rouge_scriptregular';
+  color: #FFFFFF;
+  font-size: 9rem;
+}
+
+div.contacts-footer p:first-of-type, div.social-network-footer p:first-of-type{
+  color: #333333;
+}
+
+/* -----------------------------------*/
+/* Footer / Layout -------------------*/
+/* -----------------------------------*/
+
+
+
+footer{
+  bottom: 0;
+  /* width: 100%; */
+  height: 450px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+div.logo-footer{
+  flex: 1;
+  /* to center menu elements vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+div.contacts-footer{
+  flex: 1;
+  /* to center menu elements vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+div.social-network-footer{
+  flex: 1;
+  /* to center menu elements vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+/* -----------------------------------*/
+/* Footer / Styles -------------------*/
+/* -----------------------------------*/
+
+
+
+footer{
+  background: transparent linear-gradient(180deg, #B79541CC 0%, #5C4B21 100%) 0% 0% no-repeat padding-box;
+
+}
+
+
+div.logo-footer{
+  /* padding-left: 60px; */
+  flex:1.5;
+}
+
+
+div.contacts-footer{
+  /* padding-left: 60px; */
+}
+
+
+div.social-network-footer{
+  /* padding-right: 100px; */
+}
+
+
+div.social-network-icon-box{
+    /* padding: 10px; */
+}
+
+
+div.social-network-icon-box img{
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  margin: 0 6px 0 6px;
+}
+
+
+p.phone-label{
+  letter-spacing: 0.3rem;
+}
+
+
+p.phone-label:before{
+  display: inline-block;
+  background-image: url("../icons/icons8-phone-48.png");
+  background-size: contain;
+  content: "";
+  height: 28px;
+  width: 28px;
+  position: relative;
+  margin-right: 7px;
+  top: 6px;
+}
+
+
+a.email-label:before{
+  display: inline-block;
+  background-image: url("../icons/icons8-important-mail-48.png");
+  background-size: contain;
+  content: "";
+  height: 28px;
+  width: 28px;
+  position: relative;
+  margin-right: 7px;
+  top: 6px;
+}
+
+
+p.location-label:before{
+  display: inline-block;
+  background-image: url("../icons/icons8-address-60.png");
+  background-size: contain;
+  content: "";
+  height: 28px;
+  width: 28px;
+  position: relative;
+  margin-right: 7px;
+  top: 6px;
 }
