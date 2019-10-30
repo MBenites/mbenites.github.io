@@ -1,51 +1,11 @@
-@font-face {
-    font-family: 'bellefairregular';
-    src: url('fonts/bellefair-regular-webfont.woff2') format('woff2'),
-         url('fonts/bellefair-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url("style-general.css");
 
 
-@font-face {
-    font-family: 'open_sansregular';
-    src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
-         url('fonts/opensans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
+/* -----------------------------------*/
+/* Cover / Typography ----------------*/
+/* -----------------------------------*/
 
-
-@font-face {
-    font-family: 'rouge_scriptregular';
-    src: url('fonts/rougescript-regular-webfont.woff2') format('woff2'),
-         url('fonts/rougescript-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* ||||||||||||||||||||*/
-/* || General Styles ||*/
-/* |||||||||||||||||||| */
-
-
-html{
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-
-ul, a{
-  text-decoration: none;
-  color: inherit;
-}
-
-
-/* ||||||||||||||||*/
-/* || Typography ||*/
-/* |||||||||||||||| */
 
 
 html{
@@ -79,9 +39,9 @@ p{
 }
 
 
-/* ||||||||||||||||*/
-/* || Cover page ||*/
-/* |||||||||||||||| */
+/* -----------------------------------*/
+/* Cover / Layout --------------------*/
+/* -----------------------------------*/
 
 
 html.cover-page{
