@@ -50,6 +50,7 @@ div.menu{
 ul{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 
@@ -177,6 +178,7 @@ footer{
   position: relative;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
 }
