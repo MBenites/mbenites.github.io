@@ -9,7 +9,7 @@
 
 
 li{
-  font-size: 2.4rem;
+  font-size: 2.1rem;
 }
 
 
@@ -17,7 +17,7 @@ li.logo{
   font-family: 'rouge_scriptregular';
   font-size: 4.5rem;
   color: #000000;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 
@@ -43,14 +43,14 @@ div.menu{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 1;
 }
 
 
 ul{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 
@@ -95,8 +95,8 @@ nav.main-menu{
 
 nav.categories-menu{
   background-color: #E4D5B2;
-  line-height: 2.5;
-  box-shadow: 0px 5px 6px #00000029;
+  line-height: 2.6;
+  box-shadow: 0px 4px 3px #00000029;
 }
 
 
@@ -120,24 +120,38 @@ a.search, a.bag{
 
 a.search{
   background: url("../icons/icons8-search-64.png") no-repeat right center;
-  background-size: 40px 40px;
-  padding-right: 50px;
+  background-size: 35px 35px;
+  padding-right: 45px;
 }
+
 
 a.bag{
   background: url("../icons/icons8-shopping-bag-100b.png") no-repeat right center;
-  background-size: 40px 40px;
-  padding-right: 50px;
+  background-size: 35px 35px;
+  padding-right: 45px;
 }
+
 
 div.sandwich{
   background: url("../icons/icons8-menu-52.png") no-repeat center;
   background-size: contain;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 
 
+@media only screen and (max-width: 800px) {
+  li a.search {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  li a.bag {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
 
 /* -----------------------------------*/
 /* Footer  ---------------------------*/
