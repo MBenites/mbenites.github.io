@@ -151,6 +151,12 @@ div.sandwich{
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  li{
+    min-width: 30px;
+  }
+
+  /* https://stackoverflow.com/questions/7896402/how-can-i-replace-text-with-css#13941481 */
+  /* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 }
 
 /* -----------------------------------*/
