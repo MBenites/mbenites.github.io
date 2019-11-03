@@ -100,9 +100,12 @@ nav.categories-menu{
 }
 
 
-li{
+nav li{
   padding-left: 20px;
   padding-right: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
@@ -140,28 +143,51 @@ div.sandwich{
 }
 
 
-@media only screen and (max-width: 800px) {
-  li{
-    min-width: 0;
-   }
+li a.search:before {
+  content: "Busca tu tejido";
+}
 
-  li a.search {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+
+li a.bag:before {
+  content: "Bolso de compras";
+}
+
+
+
+/* -----------------------------------*/
+/* Header / Responsive -------------------*/
+/* -----------------------------------*/
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+  li a.search:before {
+    content: "B";
+    color: transparent;
   }
-  li a.bag {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  li{
+
+
+  nav li{
     min-width: 30px;
   }
 
-  /* https://stackoverflow.com/questions/7896402/how-can-i-replace-text-with-css#13941481 */
-  /* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
+  @media only screen and (max-width: 560px) {
+
+
+    li a.bag:before {
+      content: "B";
+      color: transparent;
+    }
+
+
+  }
+
+
 }
+
+
 
 /* -----------------------------------*/
 /* Footer  ---------------------------*/
