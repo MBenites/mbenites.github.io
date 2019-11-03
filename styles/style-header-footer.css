@@ -141,6 +141,10 @@ div.sandwich{
 
 
 @media only screen and (max-width: 800px) {
+  li{
+    min-width: 0;
+   }
+
   li a.search {
     white-space: nowrap;
     overflow: hidden;
