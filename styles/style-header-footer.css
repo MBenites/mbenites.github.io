@@ -182,6 +182,19 @@ li a.bag:before {
     }
 
 
+    a.search{
+      padding-right: 20px;
+    }
+
+
+    a.bag{
+      padding-right: 20px;
+    }
+
+    nav li{
+      padding-left: 0px;
+      padding-right: 0px;
+
   }
 
 
