@@ -195,12 +195,16 @@ li a.bag:before {
       padding-left: 0px;
       padding-right: 0px;
 
+    }
+
+    nav.main-menu ul li:nth-of-type(2) {
+      flex-grow: 0;
+    }
+
+
   }
 
-
 }
-
-
 
 /* -----------------------------------*/
 /* Footer  ---------------------------*/
