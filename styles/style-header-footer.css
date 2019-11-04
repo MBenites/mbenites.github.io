@@ -115,7 +115,7 @@ nav.categories-menu li{
 }
 
 
-/* Line-height increased for the background-icon to fit*/
+/* Line-height increased for the background-icon to fit in*/
 a.search, a.bag{
   line-height: 2;
 }
@@ -180,6 +180,11 @@ li a.bag:before {
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
+
+  nav.categories-menu ul{
+      justify-content:  flex-start;
+  }
+
 
   @media only screen and (max-width: 560px) {
 
