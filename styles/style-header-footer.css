@@ -8,7 +8,7 @@
 
 
 
-li{
+.menu li{
   font-size: 2.1rem;
 }
 
@@ -47,7 +47,7 @@ div.menu{
 }
 
 
-ul{
+.menu ul{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -65,7 +65,7 @@ nav.categories-menu ul{
 
 
 /* to center menu elements vertically */
-li{
+.menu li{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +100,7 @@ nav.categories-menu{
 }
 
 
-nav li{
+.main-menu li{
   padding-left: 20px;
   padding-right: 20px;
   white-space: nowrap;
@@ -155,7 +155,7 @@ li a.bag:before {
 
 
 /* -----------------------------------*/
-/* Header / Responsive -------------------*/
+/* Header / Responsive ---------------*/
 /* -----------------------------------*/
 
 
@@ -169,8 +169,16 @@ li a.bag:before {
   }
 
 
-  nav li{
+  .main-menu li{
     min-width: 30px;
+  }
+
+
+  .categories-menu ul{
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 
   @media only screen and (max-width: 560px) {
@@ -179,6 +187,13 @@ li a.bag:before {
     li a.bag:before {
       content: "B";
       color: transparent;
+    }
+
+
+    .main-menu li{
+      padding-left: 0px;
+      padding-right: 0px;
+
     }
 
 
@@ -191,11 +206,6 @@ li a.bag:before {
       padding-right: 20px;
     }
 
-    nav li{
-      padding-left: 0px;
-      padding-right: 0px;
-
-    }
 
     nav.main-menu ul li:nth-of-type(2) {
       flex-grow: 0;
@@ -205,6 +215,8 @@ li a.bag:before {
   }
 
 }
+
+
 
 /* -----------------------------------*/
 /* Footer  ---------------------------*/
