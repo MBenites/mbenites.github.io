@@ -246,6 +246,7 @@ div.logo-footer{
   font-size: 9rem;
 }
 
+
 div.contacts-footer p:first-of-type, div.social-network-footer p:first-of-type{
   color: #333333;
 }
@@ -270,7 +271,7 @@ footer{
 
 
 div.logo-footer{
-  flex: 1;
+  flex: 2;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
@@ -279,7 +280,7 @@ div.logo-footer{
 
 
 div.contacts-footer{
-  flex: 1;
+  flex: 2;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
@@ -289,7 +290,7 @@ div.contacts-footer{
 
 
 div.social-network-footer{
-  flex: 1;
+  flex: 1 100px;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
@@ -315,21 +316,27 @@ footer{
 
 
 div.logo-footer{
+  padding-right: 10px;
+}
 
+
+div.contacts-footer{
+  min-width: 350px;
 }
 
 
 div.social-network-footer{
-  position: relative;
-  right: 5%;
+  padding-left: 20px;
+  /* position: relative;
+  right: 5%; */
 
 }
 
 
 div.vertical-line-footer{
-  margin-top: 30px;
   height: 200px;
   border-left: 1px solid white;
+  margin-top: 30px;
   margin-left: 5px;
   margin-right: 5px;
 
@@ -385,4 +392,51 @@ p.location-label:before{
   position: relative;
   margin-right: 7px;
   top: 6px;
+}
+
+
+/* -----------------------------------*/
+/* Footer / Responsive ---------------*/
+/* -----------------------------------*/
+
+
+
+@media only screen and (max-width: 905px) {
+
+
+  footer{
+    flex-direction: column;
+  }
+
+
+  div.vertical-line-footer{
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    /* margin-top: 50px;
+    margin-bottom: 60px; */
+  }
+
+
+  div.logo-footer{
+    padding-right: 0px;
+  }
+
+
+  div.contacts-footer{
+    min-width: 350px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+
+  div.social-network-footer{
+    padding-left: 0px;
+    padding-top: 50px;
+    /* right: 5%; */
+
+  }
+
+
+
 }
