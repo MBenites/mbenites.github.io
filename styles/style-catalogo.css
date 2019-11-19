@@ -37,14 +37,14 @@ p.price-text{
 
 div.catalogo-box{
   position: relative;
-  top: 170px;
+  top: 120px;
 }
 
 
 div.product-category-box{
   display: grid;
   /* grid-template-columns: auto auto auto; */
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-column-gap: 10px;
   justify-items: center;
 }
@@ -60,7 +60,8 @@ div.product-category-box{
 h2{
   margin-left: 30px;
   margin-right: 30px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   overflow: hidden;
 }
 
@@ -76,6 +77,7 @@ h2:after {
  width: 90%;
 }
 
+
 h2:after {
  left: .5em;
  margin-right: -90%;
@@ -83,31 +85,33 @@ h2:after {
 
 
 div.catalogo-box{
-  margin-bottom: 250px;
+  margin-bottom: 180px;
 }
 
 
 div.product-category-box{
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 
 div.category-box{
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 
 img.product-img{
-  width: 380px;
+  width: 100%;
   height: 400px;
   background-size: contain;
 }
 
 
 section.product-box{
-  width: 380px;
+  width: 350px;
   box-shadow: 0px 3px 1px #B79541;
+  margin-bottom: 20px;
 }
 
 
@@ -123,12 +127,16 @@ div.text-box{
 }
 
 
+div.text-box p {
+  width: 280px;
+}
+
+
 div.buy-box{
   background: url("../icons/Symbol6–13.png") no-repeat center;
   background-size: contain;
   width: 55px;
   height: 55px;
-  display: inline-block;
   float: right;
 }
 
@@ -149,4 +157,22 @@ a.link-more:hover {
 a.link-more:active {
   background: #E4D5B2;
   color: #FFFFFF;
+}
+
+
+
+/* -----------------------------------*/
+/* Footer / Responsive ---------------*/
+/* -----------------------------------*/
+
+
+
+@media only screen and (max-width: 560px) {
+
+
+  div.product-category-box{
+    width: 100%;
+  }
+
+
 }
