@@ -1,0 +1,59 @@
+@import url("style-general.css");
+@import url("style-header-footer.css");
+
+
+
+/* -----------------------------------*/
+/* Producto --------------------------*/
+/* -----------------------------------*/
+
+/* -----------------------------------*/
+/* Producto / Typography -------------*/
+/* -----------------------------------*/
+
+
+
+p.product-name-text{
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+
+p.price-text{
+  font-size: 2rem;
+  color: #493C1A;
+  font-weight: bold;
+}
+
+
+p.description-text{
+  font-family: 'bellefairregular';
+  font-size: 2.2rem;
+}
+
+
+
+
+
+
+
+
+/* -----------------------------------*/
+/* Producto / Layout -----------------*/
+/* -----------------------------------*/
+
+
+div.producto-box{
+  position: relative;
+  top: 130px;
+  margin-bottom: 180px;
+}
+
+
+/* -----------------------------------*/
+/* Producto / Styles -----------------*/
+/* -----------------------------------*/
+
+/* -----------------------------------*/
+/* Producto / Responsive ---------------*/
+/* -----------------------------------*/
