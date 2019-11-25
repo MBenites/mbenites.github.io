@@ -33,11 +33,6 @@ p.description-text{
 
 
 
-
-
-
-
-
 /* -----------------------------------*/
 /* Producto / Layout -----------------*/
 /* -----------------------------------*/
@@ -45,14 +40,45 @@ p.description-text{
 
 div.producto-box{
   position: relative;
-  top: 130px;
+  top: 150px;
   margin-bottom: 180px;
+}
+
+
+div.producto-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+div.gallery-container{
+  display: flex;
+  flex-direction: column;
 }
 
 
 /* -----------------------------------*/
 /* Producto / Styles -----------------*/
 /* -----------------------------------*/
+
+div.product-description{
+  max-width: 480px;
+}
+
+
+img.gallery-thumbnail-img{
+  width: 70px;
+  margin: 5px;
+}
+
+
+img.gallery-img{
+  width: 480px;
+}
+
+
 
 /* -----------------------------------*/
 /* Producto / Responsive ---------------*/
