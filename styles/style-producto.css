@@ -29,8 +29,15 @@ p.price-text{
 p.description-text{
   font-family: 'bellefairregular';
   font-size: 2.2rem;
+  color: #333333;
 }
 
+
+p.button{
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  line-height: 5.5rem;
+}
 
 
 /* -----------------------------------*/
@@ -40,8 +47,8 @@ p.description-text{
 
 div.producto-box{
   position: relative;
-  top: 150px;
-  margin-bottom: 180px;
+  top: 120px;
+  margin-bottom: 200px;
 }
 
 
@@ -49,7 +56,7 @@ div.producto-box{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 
@@ -63,21 +70,47 @@ div.gallery-container{
 /* Producto / Styles -----------------*/
 /* -----------------------------------*/
 
+
+div.gallery-container{
+}
+
+
+div.gallery-image{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
 div.product-description{
+  padding-left: 40px;
+  padding-right: 40px;
   max-width: 480px;
 }
 
 
+p.description-text{
+  white-space: pre-line;
+  padding-top: 10px;
+}
+
+
 img.gallery-thumbnail-img{
-  width: 70px;
+  width: 60px;
   margin: 5px;
 }
 
 
 img.gallery-img{
   width: 480px;
+  padding-top: 5px;
 }
 
+
+div.button-box{
+  background: transparent linear-gradient(150deg, #B79541CC 0%, #5C4B21 100%) 0% 0% no-repeat padding-box;
+   margin-top: 20px;
+   padding-left: 10px;
+}
 
 
 /* -----------------------------------*/
