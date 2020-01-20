@@ -8,7 +8,7 @@
 
 
 
-.menu li{
+.menu-container li{
   font-size: 2.1rem;
 }
 
@@ -38,7 +38,7 @@ a.search, nav.categories-menu a{
 
 
 
-div.menu{
+div.menu-container{
   width: 100%;
   position: fixed;
   top: 0;
@@ -47,7 +47,7 @@ div.menu{
 }
 
 
-.menu ul{
+.menu-container ul{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -65,7 +65,7 @@ nav.categories-menu ul{
 
 
 /* to center menu elements vertically */
-.menu li{
+.menu-container li{
   display: flex;
   flex-direction: column;
   align-items: center;
