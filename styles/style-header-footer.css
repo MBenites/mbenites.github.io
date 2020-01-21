@@ -8,12 +8,12 @@
 
 
 
-.menu-container li{
+div.menu-container li{
   font-size: 2.1rem;
 }
 
 
-li.logo{
+li.logo-box{
   font-family: 'rouge_scriptregular';
   font-size: 4.5rem;
   color: #000000;
@@ -21,12 +21,12 @@ li.logo{
 }
 
 
-a.bag{
+li.bag-box a{
   color: #B79541;
 }
 
 
-a.search, nav.categories-menu a{
+li.search-box a, nav.categories-menu-container a{
   color: #333333;
 }
 
@@ -47,25 +47,25 @@ div.menu-container{
 }
 
 
-.menu-container ul{
+div.menu-container ul{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
 
-nav.main-menu ul{
+nav.main-menu-container ul{
   justify-content: space-between;
 }
 
 
-nav.categories-menu ul{
+nav.categories-menu-container ul{
   justify-content: center;
 }
 
 
 /* to center menu elements vertically */
-.menu-container li{
+div.menu-container li{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +73,7 @@ nav.categories-menu ul{
 }
 
 
-nav.main-menu ul li:nth-of-type(2) {
+nav.main-menu-container ul li:nth-of-type(2) {
   flex-grow: 4;
 }
 
@@ -85,7 +85,7 @@ nav.main-menu ul li:nth-of-type(2) {
 
 
 
-nav.main-menu{
+nav.main-menu-container{
   text-align: center;
   line-height: 1.4;
   box-shadow: 0px 5px 6px #00000029;
@@ -93,14 +93,14 @@ nav.main-menu{
 }
 
 
-nav.categories-menu{
+nav.categories-menu-container{
   background-color: #E4D5B2;
   line-height: 2.6;
   box-shadow: 0px 4px 3px #00000029;
 }
 
 
-.main-menu li{
+div.main-menu li{
   padding-left: 20px;
   padding-right: 20px;
   white-space: nowrap;
@@ -109,26 +109,26 @@ nav.categories-menu{
 }
 
 
-nav.categories-menu li{
+nav.categories-menu-container li{
   padding-left: 15px;
   padding-right: 15px;
 }
 
 
 /* Line-height increased for the background-icon to fit in*/
-a.search, a.bag{
+li.search-box a, li.bag-box a{
   line-height: 2;
 }
 
 
-a.search{
+li.search-box a{
   background: url("../icons/icons8-search-64.png") no-repeat right center;
   background-size: 35px 35px;
   padding-right: 45px;
 }
 
 
-a.bag{
+li.bag-box a{
   background: url("../icons/icons8-shopping-bag-100b.png") no-repeat right center;
   background-size: 35px 35px;
   padding-right: 45px;
@@ -143,12 +143,12 @@ div.sandwich{
 }
 
 
-li a.search:before {
+li.search-box a:before {
   content: "Busca tu tejido";
 }
 
 
-li a.bag:before {
+li.bag-box a:before {
   content: "Bolso de compras";
 }
 
@@ -163,25 +163,25 @@ li a.bag:before {
 @media only screen and (max-width: 800px) {
 
 
-  li a.search:before {
+  li.search-box a:before {
     content: "B";
     color: transparent;
   }
 
 
-  .main-menu li{
+  nav.main-menu-container li{
     min-width: 30px;
   }
 
 
-  .categories-menu ul{
+  nav.categories-menu-container ul{
     white-space: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 
-  nav.categories-menu ul{
+  nav.categories-menu-container ul{
       justify-content:  flex-start;
   }
 
@@ -189,30 +189,30 @@ li a.bag:before {
   @media only screen and (max-width: 560px) {
 
 
-    li a.bag:before {
+    li.search-box a:before {
       content: "B";
       color: transparent;
     }
 
 
-    .main-menu li{
+    nav.main-menu-container li{
       padding-left: 0px;
       padding-right: 0px;
 
     }
 
 
-    a.search{
+    li.search-box a{
       padding-right: 20px;
     }
 
 
-    a.bag{
+    li.bag-box a{
       padding-right: 20px;
     }
 
 
-    nav.main-menu ul li:nth-of-type(2) {
+    nav.main-menu-container ul li:nth-of-type(2) {
       flex-grow: 0;
     }
 
