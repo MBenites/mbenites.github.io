@@ -15,7 +15,7 @@ div.menu-container li{
 
 div.menu-container li.logo-box{
   font-family: 'rouge_scriptregular';
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: #000000;
   font-weight: 500;
 }
@@ -96,7 +96,7 @@ nav.main-menu-container{
 nav.categories-menu-container{
   background-color: #E4D5B2;
   line-height: 2.6;
-  box-shadow: 0px 4px 3px #00000029;
+  box-shadow: 0px 4px 2px #00000029;
 }
 
 
@@ -160,11 +160,17 @@ li.bag-box a:before {
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 799px) {
 
 
   li.search-box a:before {
     content: "B";
+    color: transparent;
+  }
+
+
+  li.bag-box a:before {
+    content: "C";
     color: transparent;
   }
 
@@ -174,25 +180,21 @@ li.bag-box a:before {
   }
 
 
+  nav.main-menu-container ul li:nth-of-type(2) {
+    flex-grow: 0;
+  }
+
+
   nav.categories-menu-container ul{
     white-space: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-  }
-
-  nav.categories-menu-container ul{
-      justify-content:  flex-start;
+    justify-content:  flex-start;
   }
 
 
-  @media only screen and (max-width: 560px) {
-
-
-    li.search-box a:before {
-      content: "B";
-      color: transparent;
-    }
+  @media only screen and (max-width: 479px) {
 
 
     nav.main-menu-container li{
@@ -212,14 +214,10 @@ li.bag-box a:before {
     }
 
 
-    nav.main-menu-container ul li:nth-of-type(2) {
-      flex-grow: 0;
-    }
+  }/*480px*/
 
 
-  }
-
-}
+}/*800px*/
 
 
 
@@ -240,14 +238,19 @@ footer{
 }
 
 
-div.logo-footer{
+div.logo-footer-box{
   font-family: 'rouge_scriptregular';
   color: #FFFFFF;
   font-size: 9rem;
 }
 
 
-div.contacts-footer p:first-of-type, div.social-network-footer p:first-of-type{
+div.logo-footer-box p:nth-of-type(2){
+  font-size: 3.5rem;
+}
+
+
+div.contacts-footer-container p:first-of-type, div.social-network-footer-container p:first-of-type{
   color: #333333;
 }
 
@@ -265,13 +268,13 @@ footer{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
 }
 
 
-div.logo-footer{
-  flex: 2;
+div.logo-footer-container{
+  flex: 1;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
@@ -279,8 +282,8 @@ div.logo-footer{
 }
 
 
-div.contacts-footer{
-  flex: 2;
+div.contacts-footer-container{
+  flex: 1;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
@@ -289,8 +292,9 @@ div.contacts-footer{
 }
 
 
-div.social-network-footer{
-  flex: 1 100px;
+div.social-network-footer-container{
+  /* flex: 1 100px; */
+  flex: 1;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
@@ -308,34 +312,35 @@ div.social-network-footer{
 
 footer{
   background: transparent linear-gradient(180deg, #B79541CC 0%, #5C4B21 100%) 0% 0% no-repeat padding-box;
-  padding-right: 50px;
-  padding-left: 50px;
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
 
-div.logo-footer{
-  padding-right: 10px;
+div.logo-footer-container{
+  padding-right: 8px;
 }
 
 
-div.contacts-footer{
-  min-width: 350px;
+div.logo-footer-box{
+  line-height: normal;
 }
 
 
-div.social-network-footer{
-  padding-left: 20px;
-  /* position: relative;
-  right: 5%; */
 
+div.contacts-footer-container{
+  min-width: 330px;
+}
+
+
+div.social-network-footer-container{
+  padding-left: 15px;
 }
 
 
 div.vertical-line-footer{
   height: 200px;
-  border-left: 1px solid white;
+  border-left: 1px solid #FFFFFF;
   margin-top: 30px;
   margin-left: 5px;
   margin-right: 5px;
@@ -344,8 +349,8 @@ div.vertical-line-footer{
 
 
 div.social-network-icon-box img{
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   display: inline-block;
   margin: 0 6px 0 6px;
 }
@@ -369,7 +374,7 @@ p.phone-label:before{
 }
 
 
-a.email-label:before{
+p.email-label a:before{
   display: inline-block;
   background-image: url("../icons/icons8-important-mail-48.png");
   background-size: contain;
@@ -400,7 +405,7 @@ p.location-label:before{
 /* -----------------------------------*/
 
 
-
+/*
 @media only screen and (max-width: 905px) {
 
 
@@ -417,34 +422,30 @@ p.location-label:before{
   div.vertical-line-footer{
     height: 1px;
     width: 65%;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #FFFFFF;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 50px;
-    margin-bottom: 60px; */
   }
 
 
-  div.logo-footer{
+  div.logo-footer-container{
     padding-right: 0px;
   }
 
 
-  div.contacts-footer{
+  div.contacts-footer-container{
     min-width: 350px;
     padding-top: 50px;
     padding-bottom: 20px;
   }
 
 
-  div.social-network-footer{
+  div.social-network-footer-container{
     padding-left: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* right: 5%; */
 
-  }
-
+  } */
 
 
 }
