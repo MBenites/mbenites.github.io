@@ -268,13 +268,12 @@ footer{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
 }
 
 
 div.logo-footer-container{
-  flex: 1;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
@@ -283,7 +282,6 @@ div.logo-footer-container{
 
 
 div.contacts-footer-container{
-  flex: 1;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
@@ -293,8 +291,6 @@ div.contacts-footer-container{
 
 
 div.social-network-footer-container{
-  /* flex: 1 100px; */
-  flex: 1;
   /* to center menu elements vertically */
   display: flex;
   flex-direction: column;
@@ -318,7 +314,7 @@ footer{
 
 
 div.logo-footer-container{
-  padding-right: 8px;
+  padding-right: 2%;
 }
 
 
@@ -327,14 +323,17 @@ div.logo-footer-box{
 }
 
 
-
 div.contacts-footer-container{
   min-width: 330px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 
 div.social-network-footer-container{
-  padding-left: 15px;
+  padding-left: 2%;
+  /* Formula::: padding-right=0 when screen size is 800px, padding-right=148 when screen size is 1583px */
+  padding-right: calc(19% - 160px);
 }
 
 
@@ -405,14 +404,12 @@ p.location-label:before{
 /* -----------------------------------*/
 
 
-/*
-@media only screen and (max-width: 905px) {
+
+@media only screen and (max-width: 799px) {
 
 
   footer{
     flex-direction: column;
-    padding-right: 0px;
-    padding-left: 0px;
     padding-bottom: 50px;
     padding-top: 50px;
 
@@ -434,7 +431,6 @@ p.location-label:before{
 
 
   div.contacts-footer-container{
-    min-width: 350px;
     padding-top: 50px;
     padding-bottom: 20px;
   }
@@ -442,10 +438,12 @@ p.location-label:before{
 
   div.social-network-footer-container{
     padding-left: 0px;
+    padding-right: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
 
-  } */
+
+  }
 
 
 }
