@@ -200,7 +200,16 @@ li.bag-box a:before {
     nav.main-menu-container li{
       padding-left: 0px;
       padding-right: 0px;
+    }
 
+
+    nav.main-menu-container li:nth-of-type(1) {
+      padding-left: 5px;
+    }
+
+
+    nav.main-menu-container li:nth-of-type(4){
+      padding-right: 5px;
     }
 
 
@@ -234,18 +243,17 @@ li.bag-box a:before {
 footer{
   color: #FFFFFF;
   font-size: 1.8rem;
-  line-height: 2.3;
 }
 
 
-div.logo-footer-box{
+div.logo-footer-container{
   font-family: 'rouge_scriptregular';
   color: #FFFFFF;
   font-size: 9rem;
 }
 
 
-div.logo-footer-box p:nth-of-type(2){
+div.logo-footer-container p:nth-of-type(2){
   font-size: 3.5rem;
 }
 
@@ -270,6 +278,7 @@ footer{
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  line-height: 2.3;
 }
 
 
@@ -318,7 +327,7 @@ div.logo-footer-container{
 }
 
 
-div.logo-footer-box{
+div.logo-footer-container{
   line-height: normal;
 }
 
