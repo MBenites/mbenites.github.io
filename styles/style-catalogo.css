@@ -192,7 +192,8 @@ a.link-more:active {
     width: 95%;
     height: 380px;
     background-size: contain;
-    justify-content: center;
+    /*to center the reduced size img*/
+    padding-left: 6px;
   }
 
 

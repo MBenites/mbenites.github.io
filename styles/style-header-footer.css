@@ -160,7 +160,7 @@ li.bag-box a:before {
 
 
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 829px) {
 
 
   li.search-box a:before {
@@ -194,7 +194,7 @@ li.bag-box a:before {
   }
 
 
-  @media only screen and (max-width: 479px) {
+  @media only screen and (max-width: 480px) {
 
 
     nav.main-menu-container li{
@@ -414,7 +414,7 @@ p.location-label:before{
 
 
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 829px) {
 
 
   footer{
