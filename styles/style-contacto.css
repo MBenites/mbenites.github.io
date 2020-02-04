@@ -62,9 +62,9 @@ button{
 
 
 /* Center the form horizontally */
-.form-box{
+.form-container{
     position: relative;
-    top: 150px;
+    top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -90,12 +90,12 @@ main{
   background-color: black;
   background-size: cover;
   height: 100%;
-  padding-bottom: 250px;
+  padding-bottom: 150px;
 
 }
 
 
-.form-box{
+.form-container{
   width: 100%;
 
 }
@@ -115,7 +115,7 @@ h1{
 }
 
 
-div.form-box p, div.message{
+div.form-container p, div.message{
   margin: 12px;
 }
 
