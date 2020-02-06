@@ -1,0 +1,198 @@
+@import url("style-general.css");
+@import url("style-header-footer.css");
+
+
+
+/* -----------------------------------*/
+/* Bolso-compras ---------------------*/
+/* -----------------------------------*/
+
+/* -----------------------------------*/
+/* Bolso-compras / Typography --------*/
+/* -----------------------------------*/
+
+
+
+div.bolsa-container h2{
+  font-size: 2.2rem;
+}
+
+
+p.product-name-text{
+  font-size: 2.2rem;
+}
+
+
+p.price-text{
+  font-size: 2rem;
+  color: #493C1A;
+}
+
+
+div.eliminar-box p{
+  font-family: 'bellefairregular';
+  font-size: 2.2rem;
+  color: #6D1313;
+}
+
+
+div.total-container p{
+  font-size: 2rem;
+  color: #493C1A;
+}
+
+
+div.total-container span{
+  font-weight: bold;
+}
+
+
+div.button-box p.button{
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  line-height: 2rem;
+  text-shadow: 0px 1px 1px #000000;
+}
+
+
+
+
+/* -----------------------------------*/
+/* Bolso-compras / Layout ------------*/
+/* -----------------------------------*/
+
+
+div.bolsa-container{
+  position: relative;
+  top: 100px;
+  margin-bottom: 150px;
+}
+
+
+div.bolsa-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+div.detalle-container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* -----------------------------------*/
+/* Bolso-compras / Styles ------------*/
+/* -----------------------------------*/
+
+
+div.detalle-container{
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #707070;
+}
+
+
+div.total-container{
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #707070;
+  height: min-content;
+}
+
+
+div.producto-bolsa-container{
+  border: 1px solid #707070;
+  margin-top: 20px;
+  min-width: 350px;
+}
+
+
+img.gallery-thumbnail-img{
+  width: 85px;
+  float: left;
+}
+
+
+div.button-box{
+  background: #B79541 0% 0% no-repeat padding-box;
+  margin-top: 20px;
+  padding-left: 10px;
+  box-shadow: 3px 3px 5px #00000099;
+  white-space: normal;
+  height: 60px;
+  width: 280px;
+}
+
+div.producto-bolsa-container p{
+    padding-left: 95px;
+}
+
+
+div.producto-bolsa-container p:first-of-type{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+div.total-container p:first-of-type{
+  padding-top: 20px;
+}
+
+
+div.eliminar-box p::after{
+  display: inline-block;
+  background-image: url("../icons/icons8-delete-bin-24.png");
+  background-size: contain;
+  content: "";
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-left: 3px;
+  top: 4px;
+}
+
+
+p.product-name-text{
+    white-space: normal;
+}
+
+
+p.button{
+  display: inline-block;
+  width: 220px;
+  text-align: center;
+  position: relative;
+  top:0px;
+}
+
+
+div.icon-box{
+  float: right;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+}
+
+
+div.pay-box{
+  background: url("../icons/icons8-pay-64.png") no-repeat center;
+  background-size: contain;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: 6px;
+  left: 5px;
+}
+
+div.vertical-line-bolso{
+  border-left: 2px solid #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+/* -----------------------------------*/
+/* Bolso-comrpas / Responsive --------*/
+/* -----------------------------------*/
