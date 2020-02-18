@@ -110,7 +110,8 @@ img.gallery-img{
 
 div.button-box{
   /* background: transparent linear-gradient(150deg, #B79541CC 0%, #5C4B21 100%) 0% 0% no-repeat padding-box; */
-  background: transparent linear-gradient(180deg, #B79541 0%, #A29065 100%) 0% 0% no-repeat padding-box;
+  /* background: transparent linear-gradient(180deg, #B79541 0%, #A29065 100%) 0% 0% no-repeat padding-box; */
+  background: #B79541 0% 0% no-repeat padding-box;
   margin-top: 20px;
   padding-left: 10px;
   box-shadow: 3px 3px 5px #00000099;
