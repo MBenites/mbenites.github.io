@@ -238,6 +238,7 @@ div.vertical-line-bolso{
 
     div.producto-bolsa-container{
       max-width: 340px;
+      min-width: 0px;
     }
 
 
@@ -254,8 +255,6 @@ div.vertical-line-bolso{
       padding-left: 10px;
       padding-right: 0px;
     }
-
-
 
   }
 
